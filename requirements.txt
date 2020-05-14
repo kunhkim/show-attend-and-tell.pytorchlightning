@@ -1,5 +1,6 @@
 torch
 torchvision
+pytorch-lightning
 nltk
 matplotlib
 numpy
