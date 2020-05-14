@@ -1,10 +1,8 @@
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
-from torch.distributions.categorical import Categorical
 
 import pytorch_lightning as pl
-from pytorch_lightning.callbacks import ModelCheckpoint
 
 from nltk.translate.bleu_score import sentence_bleu, corpus_bleu, SmoothingFunction
 
