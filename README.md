@@ -11,7 +11,7 @@ Pytorch-lightning implementation of [Show, Attend and Tell: Neural Image Caption
 ## References
 
 Author's theano code: https://github.com/kelvinxu/arctic-captions 
-yunjey's tensorflow implementation: https://github.com/yunjey/show-attend-and-tell
+yunjey's tensorflow implementation: https://github.com/yunjey/show-attend-and-tell  
 Official tensorflow2 tutorial: https://www.tensorflow.org/tutorials/text/image_captioning
 
 <br/>
