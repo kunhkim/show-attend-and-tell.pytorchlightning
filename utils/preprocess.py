@@ -28,14 +28,14 @@ class FlickrImage(Dataset):
 		self.filenames = filenames
 		self.root_dir = root_dir
 		self.transform = transform
-	
+
 	def __len__(self):
 		return len(self.filenames)
-	
+
 	def __getitem__(self, idx):
 		filepath = os.path.join(self.root_dir, self.filenames[idx])
 		image = Image.open(filepath)
-		
+
 		if self.transform:
 			image = self.transform(image)
 		return image
